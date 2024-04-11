@@ -1,0 +1,289 @@
+{
+	"info": {
+		"_postman_id": "4493359b-9ecc-4272-945f-0ecf4534f5e5",
+		"name": "MongoDB-Workshop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33496764"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3045/api/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3045",
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2002"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7d2-DZUc2tZT9m2esatopVbVJ6De2ug\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 09 Apr 2024 22:38:43 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5092\",\n        \"title\": \"Wireless Headphones\",\n        \"stock\": 25,\n        \"description\": \"High-fidelity sound with comfortable design and long battery life.\",\n        \"category\": \"Audio\",\n        \"price\": 79.99,\n        \"rating\": 4.5\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5093\",\n        \"title\": \"Running Shoes\",\n        \"stock\": 50,\n        \"description\": \"Lightweight and breathable shoes for optimal performance.\",\n        \"category\": \"Footwear\",\n        \"price\": 64.95,\n        \"rating\": 4.8\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5094\",\n        \"title\": \"Smartwatch\",\n        \"stock\": 10,\n        \"description\": \"Track your fitness, receive notifications, and stay connected.\",\n        \"category\": \"Wearables\",\n        \"price\": 199,\n        \"rating\": 4.2\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5095\",\n        \"title\": \"Coffee Maker\",\n        \"stock\": 32,\n        \"description\": \"Brew delicious coffee with ease using this programmable machine.\",\n        \"category\": \"Appliances\",\n        \"price\": 49.99,\n        \"rating\": 4.7\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5096\",\n        \"title\": \"Wireless Keyboard\",\n        \"stock\": 15,\n        \"description\": \"Compact and ergonomic keyboard for comfortable typing.\",\n        \"category\": \"Computer Accessories\",\n        \"price\": 39.95,\n        \"rating\": 4.3\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5097\",\n        \"title\": \"Hiking Backpack\",\n        \"stock\": 40,\n        \"description\": \"Durable and spacious backpack for all your outdoor adventures.\",\n        \"category\": \"Outdoor Gear\",\n        \"price\": 89.99,\n        \"rating\": 4.9\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5098\",\n        \"title\": \"Notebook\",\n        \"stock\": 75,\n        \"description\": \"Premium notebook with lined paper for writing and sketching.\",\n        \"category\": \"Stationery\",\n        \"price\": 12.99,\n        \"rating\": 4.1\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5099\",\n        \"title\": \"Water Bottle\",\n        \"stock\": 20,\n        \"description\": \"Reusable and insulated water bottle to keep your drinks hot or cold.\",\n        \"category\": \"Hydration\",\n        \"price\": 19.95,\n        \"rating\": 4.4\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a509a\",\n        \"title\": \"Desk Lamp\",\n        \"stock\": 45,\n        \"description\": \"Adjustable desk lamp with multiple lighting modes for work or study.\",\n        \"category\": \"Lighting\",\n        \"price\": 34.95,\n        \"rating\": 4\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a509b\",\n        \"title\": \"Gaming Headset\",\n        \"stock\": 12,\n        \"description\": \"Immerse yourself in your games with crystal-clear audio.\",\n        \"category\": \"Gaming Accessories\",\n        \"price\": 99.99,\n        \"rating\": 4.6\n    }\n]"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3045/api/orders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3045",
+							"path": [
+								"api",
+								"orders"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "382"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"17e-q91Wa18LIBHW5f4jIn8eBIOikEQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 09 Apr 2024 22:40:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"6615c21409a8a1d2a43f46fd\",\n        \"date\": \"2024-04-10\",\n        \"user\": \"John Doe\"\n    },\n    {\n        \"_id\": \"6615c21409a8a1d2a43f46fe\",\n        \"date\": \"2024-04-09\",\n        \"user\": \"Jane Smith\"\n    },\n    {\n        \"_id\": \"6615c21409a8a1d2a43f46ff\",\n        \"date\": \"2024-04-08\",\n        \"user\": \"Michael Brown\"\n    },\n    {\n        \"_id\": \"6615c21409a8a1d2a43f4700\",\n        \"date\": \"2024-04-07\",\n        \"user\": \"Alice Johnson\"\n    },\n    {\n        \"_id\": \"6615c21409a8a1d2a43f4701\",\n        \"date\": \"2024-04-06\",\n        \"user\": \"David Miller\"\n    }\n]"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3045/api/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3045",
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "676"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2a4-dSP14V34GLo2LJ2M0c/4a9bB70U\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Apr 2024 14:46:02 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"66169cfeee9164801ed28077\",\n        \"firstName\": \"John\",\n        \"lastName\": \"Doe\",\n        \"age\": 25,\n        \"email\": \"john.doe@example.com\",\n        \"country\": \"USA\"\n    },\n    {\n        \"_id\": \"66169cfeee9164801ed28078\",\n        \"firstName\": \"Jane\",\n        \"lastName\": \"Smith\",\n        \"age\": 30,\n        \"email\": \"jane.smith@email.com\",\n        \"country\": \"Canada\"\n    },\n    {\n        \"_id\": \"66169cfeee9164801ed28079\",\n        \"firstName\": \"Michael\",\n        \"lastName\": \"Brown\",\n        \"age\": 22,\n        \"email\": \"michael.brown@company.com\",\n        \"country\": \"UK\"\n    },\n    {\n        \"_id\": \"66169cfeee9164801ed2807a\",\n        \"firstName\": \"Alice\",\n        \"lastName\": \"Johnson\",\n        \"age\": 42,\n        \"email\": \"alice.johnson@gmail.com\",\n        \"country\": \"Australia\"\n    },\n    {\n        \"_id\": \"66169cfeee9164801ed2807b\",\n        \"firstName\": \"David\",\n        \"lastName\": \"Miller\",\n        \"age\": 38,\n        \"email\": \"david.miller@webmail.com\",\n        \"country\": \"Germany\"\n    }\n]"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3045/api/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3045",
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2002"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7d2-4apJ929rZTqef7x1MRzkT2ZZ96I\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Apr 2024 16:10:57 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5098\",\n        \"title\": \"Notebook\",\n        \"stock\": 75,\n        \"description\": \"Premium notebook with lined paper for writing and sketching.\",\n        \"category\": \"Stationery\",\n        \"price\": 12.99,\n        \"rating\": 4.1\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5099\",\n        \"title\": \"Water Bottle\",\n        \"stock\": 20,\n        \"description\": \"Reusable and insulated water bottle to keep your drinks hot or cold.\",\n        \"category\": \"Hydration\",\n        \"price\": 19.95,\n        \"rating\": 4.4\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a509a\",\n        \"title\": \"Desk Lamp\",\n        \"stock\": 45,\n        \"description\": \"Adjustable desk lamp with multiple lighting modes for work or study.\",\n        \"category\": \"Lighting\",\n        \"price\": 34.95,\n        \"rating\": 4\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5096\",\n        \"title\": \"Wireless Keyboard\",\n        \"stock\": 15,\n        \"description\": \"Compact and ergonomic keyboard for comfortable typing.\",\n        \"category\": \"Computer Accessories\",\n        \"price\": 39.95,\n        \"rating\": 4.3\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5095\",\n        \"title\": \"Coffee Maker\",\n        \"stock\": 32,\n        \"description\": \"Brew delicious coffee with ease using this programmable machine.\",\n        \"category\": \"Appliances\",\n        \"price\": 49.99,\n        \"rating\": 4.7\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5093\",\n        \"title\": \"Running Shoes\",\n        \"stock\": 50,\n        \"description\": \"Lightweight and breathable shoes for optimal performance.\",\n        \"category\": \"Footwear\",\n        \"price\": 64.95,\n        \"rating\": 4.8\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5092\",\n        \"title\": \"Wireless Headphones\",\n        \"stock\": 25,\n        \"description\": \"High-fidelity sound with comfortable design and long battery life.\",\n        \"category\": \"Audio\",\n        \"price\": 79.99,\n        \"rating\": 4.5\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5097\",\n        \"title\": \"Hiking Backpack\",\n        \"stock\": 40,\n        \"description\": \"Durable and spacious backpack for all your outdoor adventures.\",\n        \"category\": \"Outdoor Gear\",\n        \"price\": 89.99,\n        \"rating\": 4.9\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a509b\",\n        \"title\": \"Gaming Headset\",\n        \"stock\": 12,\n        \"description\": \"Immerse yourself in your games with crystal-clear audio.\",\n        \"category\": \"Gaming Accessories\",\n        \"price\": 99.99,\n        \"rating\": 4.6\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5094\",\n        \"title\": \"Smartwatch\",\n        \"stock\": 10,\n        \"description\": \"Track your fitness, receive notifications, and stay connected.\",\n        \"category\": \"Wearables\",\n        \"price\": 199,\n        \"rating\": 4.2\n    }\n]"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3045/api/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3045",
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2002"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7d2-4apJ929rZTqef7x1MRzkT2ZZ96I\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 11 Apr 2024 12:29:08 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5098\",\n        \"title\": \"Notebook\",\n        \"stock\": 75,\n        \"description\": \"Premium notebook with lined paper for writing and sketching.\",\n        \"category\": \"Stationery\",\n        \"price\": 12.99,\n        \"rating\": 4.1\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5099\",\n        \"title\": \"Water Bottle\",\n        \"stock\": 20,\n        \"description\": \"Reusable and insulated water bottle to keep your drinks hot or cold.\",\n        \"category\": \"Hydration\",\n        \"price\": 19.95,\n        \"rating\": 4.4\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a509a\",\n        \"title\": \"Desk Lamp\",\n        \"stock\": 45,\n        \"description\": \"Adjustable desk lamp with multiple lighting modes for work or study.\",\n        \"category\": \"Lighting\",\n        \"price\": 34.95,\n        \"rating\": 4\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5096\",\n        \"title\": \"Wireless Keyboard\",\n        \"stock\": 15,\n        \"description\": \"Compact and ergonomic keyboard for comfortable typing.\",\n        \"category\": \"Computer Accessories\",\n        \"price\": 39.95,\n        \"rating\": 4.3\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5095\",\n        \"title\": \"Coffee Maker\",\n        \"stock\": 32,\n        \"description\": \"Brew delicious coffee with ease using this programmable machine.\",\n        \"category\": \"Appliances\",\n        \"price\": 49.99,\n        \"rating\": 4.7\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5093\",\n        \"title\": \"Running Shoes\",\n        \"stock\": 50,\n        \"description\": \"Lightweight and breathable shoes for optimal performance.\",\n        \"category\": \"Footwear\",\n        \"price\": 64.95,\n        \"rating\": 4.8\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5092\",\n        \"title\": \"Wireless Headphones\",\n        \"stock\": 25,\n        \"description\": \"High-fidelity sound with comfortable design and long battery life.\",\n        \"category\": \"Audio\",\n        \"price\": 79.99,\n        \"rating\": 4.5\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5097\",\n        \"title\": \"Hiking Backpack\",\n        \"stock\": 40,\n        \"description\": \"Durable and spacious backpack for all your outdoor adventures.\",\n        \"category\": \"Outdoor Gear\",\n        \"price\": 89.99,\n        \"rating\": 4.9\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a509b\",\n        \"title\": \"Gaming Headset\",\n        \"stock\": 12,\n        \"description\": \"Immerse yourself in your games with crystal-clear audio.\",\n        \"category\": \"Gaming Accessories\",\n        \"price\": 99.99,\n        \"rating\": 4.6\n    },\n    {\n        \"_id\": \"6615c0dc09a8a1d2a43a5094\",\n        \"title\": \"Smartwatch\",\n        \"stock\": 10,\n        \"description\": \"Track your fitness, receive notifications, and stay connected.\",\n        \"category\": \"Wearables\",\n        \"price\": 199,\n        \"rating\": 4.2\n    }\n]"
+				}
+			]
+		}
+	]
+}
